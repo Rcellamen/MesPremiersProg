@@ -80,7 +80,7 @@ int main()
 	break;
 	case 5:
 	{
-		
+		ManipulationBinaire();	
 	}
 	break;
 	case 6:
