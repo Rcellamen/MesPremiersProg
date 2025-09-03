@@ -69,7 +69,7 @@ int main()
 	case 3:
 	{
 		cout << "Vous avez choisi Affichage des carrées et cubes d'un nombre" << endl;
-		
+		AffichageCarresCubes();
 	}
 	break;
 	case 4:
