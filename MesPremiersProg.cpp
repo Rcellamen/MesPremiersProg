@@ -86,7 +86,7 @@ int main()
 	case 6:
 	{
 		cout << "Vous avez choisi Quitter" << endl;
-		
+		Quitter();
 	}
 	break;
 	default:
