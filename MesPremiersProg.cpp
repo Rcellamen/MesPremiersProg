@@ -56,13 +56,14 @@ int main()
 	case 1 :
 		
 			{
-			cout << "Vous avez choisi Programme de cercle";
+			cout << "Vous avez choisi Programme de cercle" << endl;
 			ProgCercle();
 			}
 			break;
 	case 2:
 	{
-		cout << "Vous avez choisi equation 2nd degré";	
+		cout << "Vous avez choisi equation 2nd degré" << endl;
+		Equation2ndDegre();
 	}
 	break;
 	case 3:
@@ -86,7 +87,7 @@ int main()
 	break;
 	case 6:
 	{
-		cout << "Vous avez choisi Quitter";
+		cout << "Vous avez choisi Quitter" << endl;
 		
 	}
 	break;
