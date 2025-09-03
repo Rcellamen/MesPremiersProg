@@ -75,9 +75,7 @@ int main()
 	case 4:
 	{
 		cout << "Vous avez choisi Calcul binaire" << endl;
-		
-
-	break;
+		CalculBinaire();	
 	}
 	break;
 	case 5:
