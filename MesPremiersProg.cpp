@@ -14,6 +14,7 @@ Résumé : Programme permettant de choisir une action à effectuer parmi un menu
 #include <cmath>
 #define _USE_MATH_DEFINES
 #include <math.h>
+#include "FonctionsProg.h"
 using namespace std;
 using std::pow;
 
