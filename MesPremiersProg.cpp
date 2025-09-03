@@ -57,6 +57,7 @@ int main()
 		
 			{
 			cout << "Vous avez choisi Programme de cercle";
+			ProgCercle();
 			}
 			break;
 	case 2:

@@ -17,7 +17,7 @@ void ProgCercle() {
 		cout << "Veuillez rentrer de nouveau le rayon: "; //Demande à l'utilisateur de re saisir une valeur valide
 		cin >> varRayon;
 	}
-	pI = 3.14;//On défini pi
+	float pI = 3.14;//On défini pi
 	p1 = pow(varRayon, 2);//On enregistre dans la variable p1 le rayon au carré
 	p2 = pow(varRayon, 3);//On enregistre dans la variable p2 le rayon au cube
 	airCercle = pI * p1;//On calcule l'air grâce à la formule qui nous est donnée à l'aide de la variable pi et p1
@@ -158,6 +158,7 @@ void CalculBinaire(){
 		cin >> hex >> NB1;
 
 		cout << "Nombre rentré : " << hex << NB1 << "  Nombre inversé : " << hex << (NB1 ^ 0x1C0);
+};
 };
 
 void ManipulationBinaire(){
